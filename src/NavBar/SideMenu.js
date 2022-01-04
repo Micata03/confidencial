@@ -1,5 +1,6 @@
 import React from 'react'
 import {social} from '../data'
+import {GoMail} from 'react-icons/go'
 
 function SideMenu({closeMenu}) {
 
@@ -60,21 +61,27 @@ function SideMenu({closeMenu}) {
                     </ul>
                 <div className='sidemenu-grilla'>
                     <div className='grilla'>
+                        <GoMail className='grilla-icon'/>
                         <p className='grilla-text'>Alertas</p>
                     </div>
                     <div className='grilla'>
+                    <GoMail className='grilla-icon'/>
                         <p className='grilla-text'>Boletines</p>
                     </div>
                     <div className='grilla'>
+                    <GoMail className='grilla-icon'/>
                         <p className='grilla-text'>Test Político</p>
                     </div>
                     <div className='grilla'>
+                    <GoMail className='grilla-icon2'/>
                         <p className='grilla-text'>Membresía</p>
                     </div>
                     <div className='grilla'>
+                    <GoMail className='grilla-icon2'/>
                         <p className='grilla-text'>Donaciones</p>
                     </div>
                     <div className='grilla'>
+                    <GoMail className='grilla-icon2'/>
                         <p className='grilla-text'>Anuncios</p>
                     </div>
                     
