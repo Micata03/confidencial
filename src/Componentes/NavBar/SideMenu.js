@@ -1,5 +1,5 @@
 import React from 'react'
-import {social} from '../data'
+import {social} from '../../data'
 import {GoMail} from 'react-icons/go'
 
 function SideMenu({closeMenu}) {
